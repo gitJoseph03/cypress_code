@@ -1,11 +1,21 @@
-# cypress_code
+## 🤖 Cypress in Page Object Model approach
 
-This repo is for sample Cypress POM approach (Sample Login Functions)
+* This repo is for sample Cypress POM approach (Sample Login Functions)
 
 ## Pre-conditions
 
-- Please do "npm i" to install the dependencies.
+* To install the dependencies, no need to install cypress it's included in the dependencies
+```bash
+npm i
+```
 
-## Cypress runner
+## Run Cypress
+```bash
+npx cypress open
+```
 
-- Please type "npx cypress open" in the terminal
+## Folder Structure
+- **cypress/e2e/features** - This contain all the scripts
+- **cypress/fixtures/feature** - This contain the test data/test cases for the script
+- **cypress/support/pages** - This contain all the reusable function
+- **cypress/support/selectors** - This contains all the element identifiers
